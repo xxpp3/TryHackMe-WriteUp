@@ -26,17 +26,28 @@ Click on the **Download Task Files** button at the top of this task. You will be
 
 ![Download command](assets/image-9.png)
 
+---
+
 > First packet when the GET request was sent:
 ![GET request packet](assets/image-10.png)
+
+---
 
 > The `notepad.exe` tries to execute `demonx64.exe`:
 ![Demon process](assets/image-11.png)
 
+---
+
 > Exported the file and ran `md5sum`, then checked it on VirusTotal:
+
 ![VirusTotal hash](assets/image-12.png)
+
+---
 
 > Found the name "Havoc" and researched it:
 ![Havoc identified](assets/image-13.png)
+
+---
 
 Refer to this write-up on decrypting Havoc C2:
 [https://www.immersivelabs.com/resources/blog/havoc-c2-framework-a-defensive-operators-guide](https://www.immersivelabs.com/resources/blog/havoc-c2-framework-a-defensive-operators-guide)
@@ -51,6 +62,7 @@ Used this parser to decrypt and analyze the Havoc C2 traffic:
 [https://github.com/Immersive-Labs-Sec/HavocC2-Forensics/blob/main/PacketCapture/havoc-pcap-parser.py](https://github.com/Immersive-Labs-Sec/HavocC2-Forensics/blob/main/PacketCapture/havoc-pcap-parser.py)
 
 > Output from running the script:
+
 ![Script output 1](assets/image-15.png)  
 ![Script output 2](assets/image-3.png)
 
