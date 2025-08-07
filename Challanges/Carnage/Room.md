@@ -35,7 +35,7 @@ Eric Fischer from the Purchasing Department at Bartell Ltd received a phishing e
 
 ### Q4: Without downloading the file, what is the name of the file inside the zip?  
 **Answer:** `chart-1530076591.xls`  
-> Follow the stream of the file. After the ZIP magic number (`PK...`), you’ll spot the embedded filename.  
+> Follow the stream of the file. After the ZIP magic number (`PK...`), you’ll spot the embedded filename(i didn't have a screenshot of it so i put one that has it's value).
 ![ZIP Content](asset/image-4.png)
 
 ---
