@@ -26,6 +26,7 @@ Three machines in the Finance department at Pfeffer PLC were compromised. We sus
 **Answer:** `192.168.75.249`
 
 > By Going Down i found a event_type : Alert it said a trojan was detected so clearly it.    
+
 ![alt text](assets/image-1.png)
 
 ---
@@ -34,6 +35,7 @@ Three machines in the Finance department at Pfeffer PLC were compromised. We sus
 **Answer:** `cambiasuhistoria.growlab.es ,www.letscompareonline.com`
 
 > By filterting by http we found the 404 packet
+
 ![alt text](assets/image-3.png)
 
 ---
@@ -42,9 +44,11 @@ Three machines in the Finance department at Pfeffer PLC were compromised. We sus
 **Answer:** `ww25.gocphongthe.com,199.59.242.153`
 
 > Same we are still on the filtering by http , and only one packet with that description of `1309` length
+
 ![alt text](assets/image-5.png)
 
 > And the Response
+
 ![alt text](assets/image-4.png)
 
 ---
@@ -53,6 +57,7 @@ Three machines in the Finance department at Pfeffer PLC were compromised. We sus
 **Answer:** `7`
 
 >by filtering and adding both query we find how many time's
+
 ![alt text](assets/image-6.png)
 
 ---
@@ -61,6 +66,7 @@ Three machines in the Finance department at Pfeffer PLC were compromised. We sus
 **Answer:** `/cgi-bin/JBbb8/`
 
 > Goed back to where the dns was made and was searching right after it for what the connection and find it a http request with the host bhaktivrind[.]com
+
 ![alt text](assets/image-7.png)
 
 ---
@@ -69,6 +75,7 @@ Three machines in the Finance department at Pfeffer PLC were compromised. We sus
 **Answer:** `185.239.243.112,catzx.exe`
 
 > It was actualy the first thing i found but kept it apart as i was searching for file's downloaded. 
+
 ![alt text](assets/image-8.png)
 
 ---
@@ -77,6 +84,7 @@ Three machines in the Finance department at Pfeffer PLC were compromised. We sus
 **Answer:** `Emotet`
 
 > The name Emotet kept repeating so i searched and found it's a malware who use phishing attacks
+
 ![alt text](assets/image-9.png) 
 
 
@@ -86,6 +94,7 @@ Three machines in the Finance department at Pfeffer PLC were compromised. We sus
 **Answer:** `192.168.75.146`
 
 > The Alert was about a dll exucuting ( trojan ) 
+
 ![alt text](assets/image-10.png)
 
 ---
@@ -94,6 +103,7 @@ Three machines in the Finance department at Pfeffer PLC were compromised. We sus
 **Answer:** `5.181.156.252`
 
 > We See a yellow allert that a http connection was trying to be made we follow and we got on the event_type http with a post to that ip 
+
 ![alt text](assets/image-11.png)
 
 ---
@@ -102,6 +112,7 @@ Three machines in the Finance department at Pfeffer PLC were compromised. We sus
 **Answer:** `3`
 
 > Well just have to filter with http as not so much http traffic
+
 ![alt text](assets/image-12.png)
 
 ---
@@ -111,6 +122,7 @@ Three machines in the Finance department at Pfeffer PLC were compromised. We sus
 
 - `/jollion/apines.exe`
 > Well it's a Get Request 
+
 ![alt text](assets/image-13.png)
 
 ---
@@ -119,6 +131,7 @@ Three machines in the Finance department at Pfeffer PLC were compromised. We sus
 **Answer:** `/jollion/apines.exe`
 
 > same as previous image you search the uri
+
 ![alt text](assets/image-13.png)
 
 ---
@@ -127,6 +140,7 @@ Three machines in the Finance department at Pfeffer PLC were compromised. We sus
 **Answer:** `45.95.203.28`
 
 > Same Id_Respond_ip
+
 ![alt text](assets/image-13.png)
 
 ---
@@ -135,6 +149,7 @@ Three machines in the Finance department at Pfeffer PLC were compromised. We sus
 **Answer:** `192.168.75.146,45.95.203.28`
 
 > So filter by alert and both the trojan are the red one and you can find the tab `Alert.category` you will find there if it's a trojan or something else
+
 ![alt text](assets/image-14.png)
 
 ---
@@ -143,9 +158,11 @@ Three machines in the Finance department at Pfeffer PLC were compromised. We sus
 **Answer:** `Redline Stealer`
 
 > So at first i didn't see it said <domain>.top so i looked for awnser and found the same malicious ip `45.95.203.28` so i was sure it's that 
+
 ![alt text](assets/image-15.png)
 
 > and here you find the malware tag 
+
 ![alt text](assets/image-16.png)
 
 ---
@@ -156,6 +173,7 @@ Three machines in the Finance department at Pfeffer PLC were compromised. We sus
 **Answer:** `192.168.75.232`
 
 > 
+
 ![alt text](assets/image-17.png)
 
 ---
@@ -164,9 +182,11 @@ Three machines in the Finance department at Pfeffer PLC were compromised. We sus
 **Answer:** `efhoahegue.ru,afhoahegue.ru,xfhoahegue.ru`
 
 > So we go to where the alert was first detected and you see 3 http request and get of 3 .exe file 
+
 ![alt text](assets/image-18.png)
 
 > and to make it even easier filter by http
+
 ![alt text](assets/image-19.png)
 
 ---
@@ -175,6 +195,7 @@ Three machines in the Finance department at Pfeffer PLC were compromised. We sus
 **Answer:** `162.217.98.146,199.21.76.77,63.251.106.25`
 
 > Same As before 
+
 ![alt text](assets/image-19.png)
 
 ---
@@ -183,6 +204,7 @@ Three machines in the Finance department at Pfeffer PLC were compromised. We sus
 **Answer:** `2`
 
 > we filter by `dns` and the domain `efhoahegue.ru` 
+
 ![alt text](assets/image-20.png)
 
 ---
@@ -191,6 +213,7 @@ Three machines in the Finance department at Pfeffer PLC were compromised. We sus
 **Answer:** `5`
 
 > so we take by name's and `/s/1.exe` ,`/s/2.exe` ,`/s/3.exe` ,`/s/4.exe`, `/s/5.exe`
+
 ![alt text](assets/image-21.png)
 
 ---
@@ -199,6 +222,7 @@ Three machines in the Finance department at Pfeffer PLC were compromised. We sus
 **Answer:** `Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:25.0) Gecko/20100101 Firefox/25.0`
 
 > You enter one of the /s/x.exe and search the user-agent tab
+
 ![alt text](assets/image-22.png)
 ---
 
@@ -206,6 +230,7 @@ Three machines in the Finance department at Pfeffer PLC were compromised. We sus
 **Answer:** `986`
 
 > as simple as it is just use the `count()`
+
 ![alt text](assets/image-23.png)
 
 ---
@@ -214,4 +239,5 @@ Three machines in the Finance department at Pfeffer PLC were compromised. We sus
 **Answer:** `Phorphiex`
 
 > so by searching ` ` i found this [https://tria.ge/201105-yhb3bs35rs/behavioral2](https://tria.ge/201105-yhb3bs35rs/behavioral2) 
+
 ![alt text](assets/image-24.png)
